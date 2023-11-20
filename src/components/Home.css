@@ -1,0 +1,52 @@
+/* Home.css */
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: url('https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?w=996&t=st=1700468894~exp=1700469494~hmac=488d53278b78bc50df9bf46edc08445e50b4fbd61d44a539b36e480cbc66d227') no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+
+.home-title {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #fff; /* White text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for visibility */
+}
+
+.home-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-link {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-link:hover {
+  background-color: #0056b3;
+}
